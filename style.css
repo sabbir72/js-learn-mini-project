@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'STIX Two Text', serif;
+  background: none repeat scroll 0 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;;
+}
+#head{
+  width: 100%;
+  clear: both;
+  padding: 2.8rem 0;
+}
+.head_1{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.head_1 h2{
+  font-weight: 700;
+}
+
+.head_2{
+  display: flex;
+}
+.head_child{
+  background: #b9b9b9;
+  width: 25%;
+  padding: 2.8rem 1.8rem;
+  margin: 0 1% 0.6rem;
+  text-align: center;
+  border-radius: .3rem;
+
+}
+.head_child:nth-child(1){
+  background: #F4B400;
+}
+.head_child:nth-child(2){
+  background: #0F9D58;
+}
+.head_child:nth-child(3){
+  background: #DB4437;
+}
+.head_child:nth-child(4){
+  background: #4285F4;
+}
+.head_child i{
+  font-size: 4rem;
+  color: #fff;
+}
+.head_child h5{
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
